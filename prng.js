@@ -23,7 +23,7 @@
 			min = 0;
 		}
 		
-		var dif = max - min, i, refill=function(){
+		var dif = max - min, refill=function(){
 			for(var i = min, result={length:0}; i <= max; i++)
 			{
 				result[i]=true;
