@@ -1,4 +1,4 @@
-( function( window, undefined ){
+( function( window ){
 
 	window.RNG = function(min, max){
 		
